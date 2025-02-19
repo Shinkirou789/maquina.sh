@@ -48,4 +48,4 @@ rm "$ruta_zip"
 
 echo -e "${VERDE}Proceso realizado con éxito${RESET}"
 
-sudo bash /home/shinki/Descargas/auto_deploy.sh /home/shinki/Descargas/${archivo}.tar
+sudo bash auto_deploy.sh ${archivo}.tar
